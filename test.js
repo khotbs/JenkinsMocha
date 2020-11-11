@@ -1,5 +1,5 @@
-var sum = require('../sum.js');
-var md5 = require('../md5');
+var sum = require('./sum.js');
+var md5 = require('./md5');
 var expect = require('chai').expect;
 
 describe('#md5()', function() {
